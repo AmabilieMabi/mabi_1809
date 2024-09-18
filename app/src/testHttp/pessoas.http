@@ -1,0 +1,25 @@
+@url = https://8080-amabiliemabi-mabi1809-freycyt1rc9.ws-us116.gitpod.io
+
+###
+GET {{url}}/pessoas
+
+###
+
+POST {{url}}/pessoas
+Content-Type:application/json 
+
+{
+    "nome": "mavi",
+    "idade": 12
+}
+###
+PUT {{url}}/pessoas/2
+Content-Type:application/json 
+
+{
+    "nome": "mavidfdgdf",
+    "idade": 1
+}
+
+###
+DELETE {{url}}/pessoas/2
